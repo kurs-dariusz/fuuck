@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,600,900&amp;subset=latin-ext);
+body {
+  font: "FiraSans" 36px;
+  color: #d32323;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  color: #6f19be;
+  background-color: #fff;
+}
+
+p {
+  color: #16c56e;
+}
+
+.piosenka {
+  background-color: #131a85;
+  padding: 20px;
+  margin: 0 auto;
+  width: 50%;
+}
