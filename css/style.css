@@ -24,3 +24,9 @@ p {
   margin: 0 auto;
   width: 50%;
 }
+
+.omg {
+  color: #d32323;
+  font-weight: 900;
+  font-size: 48px;
+}
