@@ -3,6 +3,7 @@ body {
   font: "FiraSans" 36px;
   color: #d32323;
   text-align: center;
+  display: -ms-flexbox;
   display: flex;
 }
 

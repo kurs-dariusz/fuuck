@@ -8,6 +8,7 @@ body  {
     font: $fonts;
     color: $primary-color;
     text-align: center;
+    display: flex;
 }
 h1 {
     font-size: 48px;

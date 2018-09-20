@@ -1,0 +1,22 @@
+$ node_modules/.bin/autoprefixer-cli -o ~/Desktop/Szkolenie/fuuck/css/style.prefixed.css ~/Desktop/Szkolenie/fuuck/css/style.css
+
+
+
+
+$ node_modules/.bin/nu-html-checker *.html
+index.html
+No validation errors found!
+
+strona-z-bledem.html
+5:5-64     error  Attribute “width” not allowed on element “link” at this point.
+13:24      error  No space between attributes.
+13:49      error  “<” in attribute name. Probable cause: “>” missing immediately before.
+9-13:5-52  error  Attribute “na” not allowed on element “section” at this point.
+9-13:5-52  error  Attribute “to” not allowed on element “section” at this point.
+9-13:5-52  error  Attribute “jeszcze” not allowed on element “section” at this point.
+9-13:5-52  error  Attribute “masz” not allowed on element “section” at this point.
+9-13:5-52  error  Attribute “czas,” not allowed on element “section” at this point.
+9-13:5-52  error  Attribute “<br” not allowed on element “section” at this point.
+17:7-10    error  No “p” element in scope but a “p” end tag seen.
+32:1-10    error  Stray end tag “section”.
+
