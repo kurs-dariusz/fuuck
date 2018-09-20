@@ -20,3 +20,9 @@ strona-z-bledem.html
 17:7-10    error  No “p” element in scope but a “p” end tag seen.
 32:1-10    error  Stray end tag “section”.
 
+node_modules/.bin/browser-sync start --server --https --files "css/*.css" "*.html"
+
+"watch:sass": "node-sass --output-style expanded --source-map true -o css sass --watch",
+    "watch:autoprefixer": "onchange -d 100 css/style.css -- autoprefixer-cli -o css/style.css css/style.css",
+    "watch:browsersync": "browser-sync start --server --https --files css/style.css *.html",
+    "watch:sassprefixer": "node-sass --output-style expanded --source-map true -o css sass && onchange -d 100 sass -- autoprefixer-cli -o css/style.css css/style.css"

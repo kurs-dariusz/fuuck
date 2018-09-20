@@ -1,33 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,600,900&amp;subset=latin-ext);
-body {
-  font: "FiraSans" 36px;
-  color: #d32323;
-  text-align: center;
-  display: flex;
-}
+body { font: "FiraSans" 36px; color: #d32323; text-align: center; display: -ms-flexbox; display: flex; }
 
-h1 {
-  font-size: 48px;
-}
+h1 { font-size: 56px; }
 
-h2 {
-  color: #6f19be;
-  background-color: #fff;
-}
+h2 { color: #6f19be; background-color: #fff; }
 
-p {
-  color: #16c56e;
-}
+p { color: #16c56e; }
 
-.piosenka {
-  background-color: #131a85;
-  padding: 20px;
-  margin: 0 auto;
-  width: 50%;
-}
+.piosenka { background-color: #131a85; padding: 20px; margin: 0 auto; width: 50%; }
 
-.omg {
-  color: #d32323;
-  font-weight: 900;
-  font-size: 48px;
-}
+.omg { color: #d32323; font-weight: 900; font-size: 48px; }
+
+.omgad { color: #16c56e; display: -ms-flexbox; display: flex; border-radius: 50%; }
+
+.test { display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
